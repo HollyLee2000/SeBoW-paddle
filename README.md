@@ -1,4 +1,5 @@
 # SeBoW: Self-Born Wiring for neural trees(PaddlePaddle version)
+<img src='methodology.png' width=384 alt="methodology">
 This is the paddle code for SeBoW(Self-Born wiring for neural trees), a kind of neural decision tree born form a large search space, published as a
 conference paper on ICCV 2021, written by [Ying Chen](https://www.vipazoo.cn/people/chenying.html) et al.
 The code was written by [Haoling Li](https://github.com/HollyLee2000) and Ying Chen, and supported by Jie Song.

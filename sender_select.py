@@ -22,7 +22,6 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 def validate(val_loader, model, epoch):
     model.eval()
     re = dict()
-    print("你妈")
     with paddle.no_grad():
         for i, (input, __) in enumerate(val_loader):
             input = input.cuda()
@@ -38,10 +37,8 @@ def validate(val_loader, model, epoch):
             for j in pros:
                 re[j] += pros[j][0]
             count += 1
-            print(count, "OJBK")
         for k in re:
             re[k] /= count
-    print(count)
     for k in re.items():
         print(k)
 

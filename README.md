@@ -38,5 +38,5 @@ cd SeBoW-paddle
 
 
 ## Acknowledgments
-The word is inspired by [VIPA](https://www.vipazoo.cn/).
+The work is inspired by [VIPA](https://www.vipazoo.cn/).
 
